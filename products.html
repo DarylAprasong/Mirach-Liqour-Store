@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Products</title>
+    <link rel="stylesheet" href="products.css">
+  </head>
+  <body>
+    <header>
+      <h1>Products</h1>
+      <nav>
+        <ul>
+            <li><a href="html.index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about us.html">About Us</a></li>
+            <li><a href="contact us.html">Contact Us</a></li>
+        </ul>
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+      <section id="description">
+        <h2><span class="highlight">Description</span></h2>
+        <img src="Image/1674465449-conosurtocornalcabernetsauvignon75-2021web.jpg" alt="Wine Bottle">
+        <p><span class="highlight">This is a description of our wine product. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis euismod vel eros vitae blandit. Integer pellentesque nisi eu ipsum interdum, in aliquam tellus pulvinar. Nullam venenatis urna a leo ultricies, eu euismod arcu tempus.</span></p>
+        <p class="highlight"class="highlight"><strong>Price:</strong> $19.99</p>
+        <p class="highlight"><strong>Alcohol Content:</strong> 13%</span></p>
+      </section>
+      
+      <section id="reviews">
+        <h2 class="highlight">Reviews</h2>
+        <ul>
+          <li>
+            <h3 class="highlight">John Smith</h3>
+            <p class="highlight">This wine is amazing! I will definitely be ordering more.</p>
+          </li>
+          <li>
+            <h3 class="highlight">Jane Doe</h3>
+            <p class="highlight">Not my favorite wine, but still good for the price.</p>
+          </li>
+        </ul>
+      </section>
+      
+      <section id="order">
+        <h2>Order</h2>
+        <form action="submit-order.php" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          <label for="quantity">Quantity:</label>
+          <input type="number" id="quantity" name="quantity" min="1" max="10" required>
+          <button type="submit">Submit Order</button>
+        </form>
+      </section>
+    </main>
+    
+    <footer>
+      <p>&copy; 2023 Liquor Store. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
